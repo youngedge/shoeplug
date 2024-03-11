@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.login-form-container::before { /* Or use ::after if you prefer */
+    content: ""; /* Essential for pseudo-elements to work */
+    background-image: url('./Login.jpeg');
+    background-size: cover;
+    background-position: auto; /*Adjust as needed*/
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%; 
+    height: 100%;
+    z-index: -1; /* Place the image behind the content */
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+.Logo {
+    text-align: center; /* Example: Center the logo */
+}
+
+.Logo img { 
+    position: absolute;
+    width: 350px; /* Example: Adjust logo size */
+    margin-bottom: 20px; /* Example: Add some spacing */
+    left: 50%;
+    margin-top: -8%;
+ }
+ .welcome { 
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em; 
+    font-weight: 600;
+    line-height: 1.2em; 
+    letter-spacing: -2px; /* Smaller negative value */
+    margin-left: -125px;
+    margin-top: -150px;
+    color:#000000;
+    /* Consider replacing absolute positioning and margin-top with one of the alternatives mentioned above */
+}
+.dnt{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -125px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:  -89px;
+    line-height: 14.4px;
+    color:#000000;
+}
+.dnt a {
+    color:#000000; /* White text for contrast */
+    padding: 3px 6px; /* Add some padding  */
+    border-radius: 3px;  /* Slightly rounded corners */
+    text-decoration: none; /* Remove default underline */
+}
+.dnt a:hover {
+    color: grey;
+    ; /* Slightly lighter black on hover */
+}
+
+/* Form Container Styles (Optional) */
+.form-container { /* Add if you have a containing element for the whole form */
+    /* Styles to position the form, if needed */
+}
+
+/* Form Element Styles */
+.form > div {
+    margin-bottom: 10px; 
+    padding: 5px;
+}
+
+.form label {
+    color: #333;
+    font-size: 14px;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    height: 30px;
+    width: 450px; 
+    padding: 5px;
+    margin-bottom: 20px; /* Add spacing below inputs */
+    border: 1px solid #ccc;
+    background: #EEEEEE;
+    border-radius: 5px;
+    font-size: 14px; 
+    margin-left: -125px;
+    margin-top: -50%;
+}
+
+.form button[type="submit"] {
+    position: absolute;
+    margin-left: 190px;
+    background-color: #000000; /* Black */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    transition: background-color 0.3s ease; /* Add smooth hover transition */
+}
+
+.form button[type="submit"]:hover {
+    background-color: grey;
+}
+.toggle-password-button {
+    position: absolute;
+    top: 75px;
+    left: 300px;
+    cursor: pointer;  
+}
+/* Style for username input placeholder */
+.form input[type="text"]::placeholder { 
+    color: #999; /* Gray color - adjust as needed */
+}
+
+/* Style for password input placeholder */
+.form input[type="password"]::placeholder { 
+    color: #999; /* Same gray color */
+}
+
