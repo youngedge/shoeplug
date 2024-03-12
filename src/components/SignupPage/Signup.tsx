@@ -41,24 +41,24 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmit }) => {
                 <div className='create'>
                 <h2>Create an account</h2> {/* Or another appropriate heading */}
                 </div>
-                <div className='dha'>Already have an account?<Link to=".">Sign in</Link></div>
+                <div className='dha'>Already have an account?<Link to="./">Sign in</Link></div>
                 <div className='input-group'>
-                    <label htmlFor="firstName">First Name:</label>
+                    <label htmlFor="firstName"></label>
                     <input type="text" id="firstName" placeholder='First name' value={firstName} onChange={(e) => setFirstName(e.target.value)} />
                 </div>
 
                 <div className='input-group'>
-                    <label htmlFor="lastName">Last Name:</label>
+                    <label htmlFor="lastName"></label>
                     <input type="text" id="lastName" placeholder = 'Last name' value={lastName} onChange={(e) => setLastName(e.target.value)} />
                 </div>
 
                 <div className='input-group'>
-                    <label htmlFor="Email">Email:</label>
+                    <label htmlFor="Email"></label>
                     <input type="text" id="Email" placeholder = 'Email'  value={Email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
 
                 <div className='input-group'>
-                    <label htmlFor="password">Password:</label>
+                    <label htmlFor="password"></label>
                     <input type="password" id="password" placeholder = 'password' value={password} onChange={(e) => setPassword(e.target.value)} />
                     <button className="toggle-password-button2" onClick={togglePasswordVisibility}>
                         <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} /> 

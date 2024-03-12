@@ -111,8 +111,8 @@
 }
 .toggle-password-button {
     position: absolute;
-    top: 75px;
-    left: 300px;
+    top: 95px;
+    left: 320px;
     cursor: pointer;  
 }
 /* Style for username input placeholder */
