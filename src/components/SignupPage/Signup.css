@@ -39,6 +39,7 @@
     position: absolute;
     top: -10%; /*Adjust vertical position as needed*/
     left: -30%;
+    /* transform: translateY(-50%);  */
     font-weight: 400;
     color: #000;
     font-family: 'Poppins', sans-serif; 
