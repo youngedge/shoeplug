@@ -67,10 +67,9 @@
 }
 .toggle-password-button2 {
     position: absolute;
-    top: 305px;
-    left: 322px;
+    top: 235px;
+    left: 323px;
     cursor: pointer;  
 }
-
 /* ... rest of your form element styles ... */ 
 
