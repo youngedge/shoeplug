@@ -43,12 +43,14 @@
     color: #000;
     font-family: 'Poppins', sans-serif; 
     line-height: 14.4px;
+    color:#000000;
 }
 
 .dha a { 
-    color: #000; 
+    color: #000000; 
     text-decoration: none; 
     border-radius: 3px;
+    padding: 3px 6px;
 }
 .dha a:hover {
     color:grey;

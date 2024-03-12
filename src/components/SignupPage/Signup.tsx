@@ -41,7 +41,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmit }) => {
                 <div className='create'>
                 <h2>Create an account</h2> {/* Or another appropriate heading */}
                 </div>
-                <div className='dha'>Already have an account?<Link to="./">Sign in</Link></div>
+                <div className='dha'>Already have an account?<Link to="/">Sign in</Link></div>
                 <div className='input-group'>
                     <label htmlFor="firstName"></label>
                     <input type="text" id="firstName" placeholder='First name' value={firstName} onChange={(e) => setFirstName(e.target.value)} />
