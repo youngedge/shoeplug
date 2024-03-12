@@ -53,7 +53,7 @@
     color:#000000; /* White text for contrast */
     padding: 3px 6px; /* Add some padding  */
     border-radius: 3px;  /* Slightly rounded corners */
-    text-decoration: none; /* Remove default underline */
+    /*text-decoration: none; /* Remove default underline */
 }
 .dnt a:hover {
     color: grey;

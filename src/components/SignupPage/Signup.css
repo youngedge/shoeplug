@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+.signup-form-container::before { /* Or use ::after if you prefer */
+    content: ""; /* Essential for pseudo-elements to work */
+    background-image: url('./Signup.jpeg');
+    background-size: cover;
+    background-position: auto; /*Adjust as needed*/
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%; 
+    height: 100%;
+    z-index: -1; /* Place the image behind the content */
+}
+.Logo {
+    text-align: center; /* Example: Center the logo */
+}
+
+.Logo img { 
+    position: absolute;
+    width: 350px; /* Example: Adjust logo size */
+    margin-bottom: 20px; /* Example: Add some spacing */
+    left: 50%;
+    margin-top: -8%;
+ }
+/* "Create an Account" Heading  */
+.create {
+    position: absolute;
+    top: -10%;
+    left: -30%; 
+    transform: translateY(-50%);
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 600; 
+}
+
+/* "Don't Have an Account" and Link */
+.dha {
+    position: absolute;
+    top: 1%; /*Adjust vertical position as needed*/
+    left: -30%;
+    transform: translateY(-50%); 
+    color: #000;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.dha a { 
+    color: #000; 
+    text-decoration: none; 
+}
+
+/* Signup Form */
+.form { 
+    position: absolute;
+    top: 50%;
+    right: 10%; 
+    transform: translateY(-50%); 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px;
+}
+.toggle-password-button2 {
+    position: absolute;
+    top: 305px;
+    left: 322px;
+    cursor: pointer;  
+}
+
+/* ... rest of your form element styles ... */ 
+

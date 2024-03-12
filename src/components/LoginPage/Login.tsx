@@ -41,7 +41,8 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSubmit }) => {
                 <div>
                     <div className='plug'></div>
                     <div className='welcome'> Welcome back</div>
-                    <div className='dnt'>Don't have an account?<Link to="/signup">Sign up</Link></div>
+                    <div className='dnt'>Don't have an account?<Link to="./Signup">Sign up</Link>
+                    </div>
                     <label htmlFor="username"></label>
                     <input type="text" id="username" placeholder = "Email" value={username} onChange={(e) => setUsername(e.target.value)} />
                 </div>
