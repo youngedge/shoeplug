@@ -22,10 +22,10 @@
 
 .Logo img { 
     position: absolute;
-    width: 350px; /* Example: Adjust logo size */
+    width: 230px; /* Example: Adjust logo size */
     margin-bottom: 20px; /* Example: Add some spacing */
     left: 50%;
-    margin-top: -8%;
+    margin-top: -4%;
  }
  .welcome { 
     position: absolute;

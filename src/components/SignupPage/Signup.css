@@ -11,16 +11,16 @@
     height: 100%;
     z-index: -1; /* Place the image behind the content */
 }
-.Logo {
+.Logo2 {
     text-align: center; /* Example: Center the logo */
 }
 
-.Logo img { 
+.Logo2 img { 
     position: absolute;
-    width: 350px; /* Example: Adjust logo size */
+    width: 230px; /* Example: Adjust logo size */
     margin-bottom: 20px; /* Example: Add some spacing */
     left: 50%;
-    margin-top: -8%;
+    margin-top: -4%;
  }
 /* "Create an Account" Heading  */
 .create {

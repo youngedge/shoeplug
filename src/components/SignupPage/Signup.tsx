@@ -34,7 +34,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmit }) => {
     return (
         <div className='signup-form-container'>
             {/* Consider adding the logo image here if relevant */}
-            <div className='Logo'>
+            <div className='Logo2'>
                 <img src={logo} alt="ShoePlug Logo" />
             </div>
             <form className='form' onSubmit={handleSubmit}>
