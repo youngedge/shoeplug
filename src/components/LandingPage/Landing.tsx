@@ -30,6 +30,22 @@ const Landing = () => {
             </div>
                 <input type="text" placeholder="Search for shoes" /> 
             </div> 
+            <div className='Sp'>
+              <span className='radwave-text'>
+              SHOE PLUG
+              </span>
+              <span className='radwave-text-shadow'>
+              SHOE PLUG
+              </span>
+            </div>
+            <div className='explore'>
+              Explore our amazing collection of 
+              trendy kicks and find the perfect
+              pair to rock your style
+              </div>
+            <button className='pill'>
+                <span className='pill-tittle'>SHOP NOW</span>
+            </button>
             <div className='nav-container'>
             <Link to="/Home">HOME</Link> 
             <Link to="/Trending">TRENDING</Link>
