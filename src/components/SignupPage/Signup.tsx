@@ -65,7 +65,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmit }) => {
                     </button>
                 </div>
 
-                <button type="submit">Sign Up</button>
+                <button type="submit2">Sign Up</button>
             </form>
         </div>
     );

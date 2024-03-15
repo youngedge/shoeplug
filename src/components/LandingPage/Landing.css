@@ -1,0 +1,54 @@
+.navbar {
+  background-color:  grey;
+  color: white;       
+  padding: 15px 20px;     
+  display: flex;         
+  justify-content: space-between;
+  align-items: center;  
+  width: 98%; 
+  height: 152px;
+  top: -758px; 
+  left: -675px;
+}
+
+.navbar a {
+  color: inherit;          
+  text-decoration: none;
+  margin: 0 10px;       
+}
+
+.navbar a:hover {
+  color: lightgray;
+} 
+.Logo3 {
+  text-align: center; /* Example: Center the logo */
+}
+
+.Logo3 img { 
+  position: absolute;
+  width: 230px; /* Example: Adjust logo size */
+  margin-bottom: 20px; /* Example: Add some spacing */
+  left: 0%;
+  margin-top: -10%;
+}
+/* ... (Your existing navbar styles) */
+
+.search-bar {
+  width: 510px;     /* Fixed width */
+  height: 48px;     /* Fixed height */
+  padding: 10px 0;  /* Top and bottom padding only */
+  border-radius: 62px; 
+  display: flex;    /* Enable flexbox for potential search icon */
+  justify-content: space-between; /* Potential layout for icon */
+  /* Add background color and border styles if needed */
+}
+
+.search-bar input {
+  width: calc(100% - 20px); /* Adjust for padding */
+  height: 100%; 
+  border: none;          /* Remove default input border */
+  outline: none;         /* Remove focus outline */
+  border-radius: 62px;   /* Match border-radius of container */
+  padding-left: 15px;    /* Add some left padding */
+  font-size: 16px;       /* Set a font size */
+}

@@ -90,11 +90,10 @@
     margin-top: -50%;
 }
 
-.form button[type="submit"] {
+.form button[type="button"] {
     position: absolute;
     margin-left: 190px;
     background-color: #000000; /* Black */
-    color: white;
     border: none;
     border-radius: 3px;
     padding: 5px 10px;
@@ -103,10 +102,11 @@
     border-radius: 5px;
     width: 150px;
     height: 40px;
+    text-decoration: none;
     transition: background-color 0.3s ease; /* Add smooth hover transition */
 }
 
-.form button[type="submit"]:hover {
+.form button[type="button"]:hover {
     background-color: grey;
 }
 .toggle-password-button {
@@ -124,4 +124,10 @@
 .form input[type="password"]::placeholder { 
     color: #999; /* Same gray color */
 }
-
+a {
+    text-decoration: none !important;
+}
+.form button a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline if needed */
+}

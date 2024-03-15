@@ -53,7 +53,9 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSubmit }) => {
                         <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} /> 
                     </button>
                 </div>
-                <button type="submit">Sign in</button>
+                <button type="button">
+            <Link to="/landing">Sign in</Link> 
+        </button>
             </form>
         </div>
     );
