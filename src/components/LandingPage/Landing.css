@@ -1,5 +1,26 @@
+
+.background-image-section {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%; 
+  height: 100%; /* Adjust height as needed */
+  background-image: url('./Landing.jpg');
+ /* Make the image cover the area */
+  background-position: center; /* Center the image */
+  z-index: -50; /* Ensure the image stays behind other content */
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) { /* Example breakpoint for tablets */
+  .background-image-section {
+    height: 350px; /* Adjust height for smaller screens */ 
+  }
+}
+
 .navbar {
-  background-color:  grey;
+  position: absolute;
+  background-color:  white;
   color: white;       
   padding: 15px 20px;     
   display: flex;         
@@ -7,8 +28,8 @@
   align-items: center;  
   width: 98%; 
   height: 152px;
-  top: -758px; 
-  left: -675px;
+  top: 0px; 
+  left: 0px;
 }
 
 .navbar a {
@@ -34,7 +55,7 @@
 /* ... (Your existing navbar styles) */
 
 .search-bar {
-  width: 510px;     
+  width: 550px;     
   height: 48px;                                                
   padding: 0px 0;  
   border-radius: 10px; 
@@ -71,7 +92,7 @@
   color: white;
   position: relative;    
   z-index: 2;  
-  left: 472.5px;  /* Adjust this value to overlap the circle */
+  left: 510px;  /* Adjust this value to overlap the circle */
   top: 12px;     /* Adjust this value for vertical placement */
 }
 
@@ -93,3 +114,22 @@
   left: 960px;
   top: 20px;
 }
+.nav-container {
+  width: 1200px;    
+  height: 40px;       
+  display: flex;          
+  justify-content: space-between; 
+  padding: 0 24px;     
+  position: absolute;
+  top: 140px;
+  left: 300px;
+  color: black;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+

@@ -8,6 +8,9 @@ import { PiShoppingCartBold } from "react-icons/pi";
 import { FaRegUser } from "react-icons/fa";
 const Landing = () => {
     return (
+      <div className='header-container'>
+           <div className="background-image-section">
+       </div>
         <nav className="navbar">
             <div className='Logo3'>
                 <img src={logo} alt="ShoePlug Logo" />
@@ -27,13 +30,14 @@ const Landing = () => {
             </div>
                 <input type="text" placeholder="Search for shoes" /> 
             </div> 
-            <div>
+            <div className='nav-container'>
             <Link to="/Home">HOME</Link> 
             <Link to="/Trending">TRENDING</Link>
             <Link to="/NewArrivals">NEW ARRIVALS</Link>
             <Link to="/Collections">COLLECTIONS</Link>
             </div>
         </nav>
+        </div>
     );
 };
 
