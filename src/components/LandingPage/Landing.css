@@ -28,7 +28,7 @@
   justify-content: space-between;
   align-items: center;  
   width: 98%; 
-  height: 152px;
+  height: 100px;
   top: 0px; 
   left: 0px;
 }
@@ -48,10 +48,10 @@
 
 .Logo3 img { 
   position: absolute;
-  width: 230px; /* Example: Adjust logo size */
+  width: 190px; /* Example: Adjust logo size */
   margin-bottom: 20px; /* Example: Add some spacing */
   left: 0%;
-  margin-top: -10%;
+  margin-top: -7%;
 }
 /* ... (Your existing navbar styles) */
 
@@ -122,7 +122,7 @@
   justify-content: space-between; 
   padding: 0 24px;     
   position: absolute;
-  top: 140px;
+  top: 100px;
   left: 300px;
   color: black;
   font-family: Poppins;
@@ -182,7 +182,7 @@
   cursor: pointer;
   font-family: 'Montserrat Alternates', sans-serif;
   position: absolute;
-  top: 420%;
+  top: 550%;
   right: 7%;
   font-size: 16px; /* Adjust the font size as needed */
 }
