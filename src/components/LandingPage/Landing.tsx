@@ -23,7 +23,9 @@ const Landing = () => {
             <LuHeart className='likes' size= "20px"/>
             </div>
             <div className='cart-container'>
+            <Link to='/cart'> 
             <PiShoppingCartBold className='cart' size="20px"/>
+            </Link>
             </div>
             <div className='user-container'>
             <FaRegUser className='user'  size="20px"/>
@@ -47,10 +49,10 @@ const Landing = () => {
                 <span className='pill-tittle'>SHOP NOW</span>
             </button>
             <div className='nav-container'>
-            <Link to="/Home">HOME</Link> 
-            <Link to="/Trending">TRENDING</Link>
-            <Link to="/NewArrivals">NEW ARRIVALS</Link>
-            <Link to="/Collections">COLLECTIONS</Link>
+            <Link to="/landing">HOME</Link> 
+            <Link to="">TRENDING</Link>
+            <Link to="">NEW ARRIVALS</Link>
+            <Link to="">COLLECTIONS</Link>
             </div>
         </nav>
         </div>

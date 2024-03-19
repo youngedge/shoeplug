@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.navbar {
+    position: absolute;
+    background-color:  white;
+    color: white;       
+    padding: 15px 20px;     
+    display: flex;         
+    justify-content: space-between;
+    align-items: center;  
+    width: 98%; 
+    height: 100px;
+    top: 0px; 
+    left: 0px;
+  }
+  
+  .navbar a {
+    color: inherit;          
+    text-decoration: none;
+    margin: 0 10px;       
+  }
+  
+  .navbar a:hover {
+    color: lightgray;
+  } 
+  .Logo3 {
+    text-align: center; /* Example: Center the logo */
+  }
+  
+  .Logo3 img { 
+    position: absolute;
+    width: 190px; /* Example: Adjust logo size */
+    margin-bottom: 20px; /* Example: Add some spacing */
+    left: 0%;
+    margin-top: -7%;
+  }
+  /* ... (Your existing navbar styles) */
+  
+  .search-bar {
+    width: 550px;     
+    height: 48px;                                                
+    padding: 0px 0;  
+    border-radius: 10px; 
+    display: flex;   
+    justify-content: space-between;
+    position: absolute;
+    right: 35%;
+    top: 20px;
+  }
+  
+  .search-bar input {
+    width: calc(100% - 20px); 
+    height: 100%;                   
+    border: none;                                        
+    outline: none;                                
+    border-radius: 62px;                                 
+    padding-left: 15px;                            
+    font-size: 16px;    
+    background-color: #EEEEEE;               
+  }
+  .search-bar::after { /* Create a pseudo-element */
+    content: ''; 
+    position: absolute;
+    right: 0px;      /* Adjust for placement and padding */
+    top: 52%;
+    transform: translateY(-50%); 
+    width: 50px;      /* Size of the circle */
+    height: 50px;      
+    background-color: black;  /* Color of the circle */
+    border-radius: 50%;   /* Make it a circle */
+  }
+  
+  .search-bar .search-logo {
+    color: white;
+    position: relative;    
+    z-index: 2;  
+    left: 510px;  /* Adjust this value to overlap the circle */
+    top: 12px;     /* Adjust this value for vertical placement */
+  }
+  
+  .likes{
+    color: black;
+    position: relative;
+    left: 900px;
+    top: 20px;
+  }
+  .cart{
+    color: black;
+    position: relative;
+    left: 930px;
+    top: 20px;
+  }
+  .user{
+    color: black;
+    position: relative;
+    left: 960px;
+    top: 20px;
+  }
+  .nav-container {
+    width: 1200px;    
+    height: 40px;       
+    display: flex;          
+    justify-content: space-between; 
+    padding: 0 24px;     
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: black;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .cart-name{
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    position: relative; 
+    top: 300px;  
+    left: 40px;
+  }
+  
+.member1{
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #F13242;
+
+
+}
+.member2{
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #8C8C8C;
+  
+}
+.member3{
+  position: absolute;
+  top: 25%;
+  left: 36%;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #8C8C8C;
+  text-decoration: underline; 
+  text-decoration-color: #8C8C8C;
+}
+a { 
+  color: inherit; /* Inherit text color from parent element */
+  text-decoration: underline; 
+}
+.member4{
+  position: absolute;
+  top: 25%;
+  left: 41%;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #8C8C8C;
+  text-decoration: underline; 
+  text-decoration-color: #8C8C8C;
+}
+.or{
+  position: absolute;
+  top: 1%;
+  left: 110%;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #8C8C8C;
+  text-decoration-color: #8C8C8C;
+}
+.cart-summary {
+  border: 3px solid #8C8C8C;  /* Adds a subtle border */
+  padding: 20px;           /* Adds spacing within the summary box */
+  box-sizing: border-box;  /* Keeps padding from expanding the width */
+  width: 400px;            /* Adjust the width as needed */
+  position: absolute;
+  right: 2%;
+  top: 20%;
+}
+
+.cart-summary span {
+  display: block;          /* Makes each label take up full width */
+  margin-bottom: 70px;      /* Adds space between labels */
+}
+.summary{
+  font-family: Montserrat Alternates;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  margin-left: 30%;
+}
+.sub-t{
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  color: #000000;
+}
+.estimated-ship-handling{
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  color: #000000;
+}
+.estimated-tax{
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  color: #000000;
+}
+.discount-total{
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  color: #000000;
+}
+.total {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  color: #000000;
+  position: relative; 
+}
+
+.total::before { 
+  content: '';
+  position: absolute;
+  top: 35px; 
+  left: 0; 
+  width: 100%; 
+  height: 1px;
+  background-color: #000000; 
+}
+
+.total::after { 
+  content: ''; 
+  position: absolute;
+  bottom: 35px;
+  left: 0;  
+  width: 100%;  
+  height: 1px;
+  background-color: #000000; 
+}
+.cart-summary button { 
+  width: 350px;  
+  height: 55px;   
+  padding: 10px 0; 
+  border-radius: 5px 0 0 0;  
+  opacity: 1;     
+  background-color: #000000; 
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  border: none;          
+  cursor: pointer;      
+}
+
+.cart-summary button a { 
+  color: #ffffff; 
+  text-decoration: none;  
+} 
+.cart-summary button { 
+
+  border-radius: 10px; 
+  text-align: center;  
+}
+.cart-summary button:hover{
+  background-color: #8C8C8C;
+}
+
+
+
+
