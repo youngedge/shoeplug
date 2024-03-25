@@ -121,7 +121,9 @@
     top: 12px;
     /* Adjust this value for vertical placement */
 }
-
+.search-bar input:hover{
+  background-color: lightgrey;
+}
 .likes {
     color: black;
     position: relative;

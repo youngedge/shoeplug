@@ -23,7 +23,7 @@ const Landing = () => {
     const [products, setProducts] = useState<Product[]>([]);
     const [error, setError] = useState(null);
 
-     const apiKey = '30c9b59de9mshfc5f793820d04c6p14d299jsn37a2def6be16'; // Replace with your actual API key
+     const apiKey = '30c9b59de9mshfc5f793820d04c6p14d299jsn37a2def6be16'; 
 
 
 
@@ -40,7 +40,7 @@ const Landing = () => {
 
             try {
                 const response = await fetch(url, options);
-                const result = await response.json(); // Assuming the API returns JSON
+                const result = await response.json(); 
                 setProducts(result);
             } catch (e) {
                 setError(error);
@@ -48,7 +48,7 @@ const Landing = () => {
         };
 
         fetchData();
-    }, []); // Empty dependency array ensures data is fetched only once
+    }, []); 
 
     if (error) {
         return <div>Error fetching data</div>;

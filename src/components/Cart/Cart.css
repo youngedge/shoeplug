@@ -76,7 +76,9 @@
     left: 510px;  /* Adjust this value to overlap the circle */
     top: 12px;     /* Adjust this value for vertical placement */
   }
-  
+  .search-bar input:hover{
+    background-color: lightgrey;
+  }
   .likes{
     color: black;
     position: relative;
