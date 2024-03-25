@@ -49,7 +49,7 @@ export class Cart extends Component {
               </span>
               <span className='cart-name'>Cart</span>
               <span className='member4'>
-              <Link to="">Sign in</Link> 
+              <Link to="/">Sign in</Link> 
               </span>
               </div>
             </div>

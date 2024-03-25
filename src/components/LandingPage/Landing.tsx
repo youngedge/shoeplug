@@ -23,7 +23,7 @@ const Landing = () => {
     const [products, setProducts] = useState<Product[]>([]);
     const [error, setError] = useState(null);
 
-     const apiKey = '4bd7346311mshfb4718560f58675p19c074jsn7c131e391adb'; // Replace with your actual API key
+     const apiKey = '30c9b59de9mshfc5f793820d04c6p14d299jsn37a2def6be16'; // Replace with your actual API key
 
 
 

@@ -260,6 +260,7 @@ h1 {
 .product {
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .product-image {
